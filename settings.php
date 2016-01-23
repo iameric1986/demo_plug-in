@@ -20,14 +20,14 @@
  * The link is added to the left side bar of the Moodle website.
  *
  * @package     local
- * @subpackage  feedback_ec10
+ * @subpackage  demo_plug-in
  * @copyright   Eric Cheng ec10@ualberta.ca
  * @license     http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 
-$ADMIN->add('root', new admin_category('local_demo_plug-in', get_string('menuoption', 'local_feedback_ec10')));
+$ADMIN->add('root', new admin_category('local_demo_plug-in', get_string('menuoption', 'local_demo_plug-in')));
 
-$ADMIN->add('local_feedback_form', new admin_externalpage('feedback_form', get_string('pluginname', 'local_feedback_ec10'),
+$ADMIN->add('local_feedback_form', new admin_externalpage('feedback_form', get_string('pluginname', 'local_demo_plug-in'),
         $CFG->wwwroot.'/local/demo_plug-in/view.php', 'local/demo_plug-in:add'));
 
 ?>

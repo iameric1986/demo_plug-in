@@ -18,7 +18,7 @@
  * Version control
  *
  * @package     local
- * @subpackage  feedback_ec10
+ * @subpackage  demo_plug-in
  * @copyright   Eric Cheng ec10@ualberta.ca
  * @license     http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
